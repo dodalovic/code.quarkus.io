@@ -73,6 +73,12 @@
       <artifactId>commons-compress</artifactId>
       <version>${version.commons-compress}</version>
     </dependency>
+    <!-- Needed until https://github.com/quarkusio/quarkus/issues/4329 is fixed-->
+    <dependency>
+      <groupId>io.smallrye</groupId>
+      <artifactId>smallrye-open-api</artifactId>
+      <version>1.1.9</version>
+    </dependency>
     <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
